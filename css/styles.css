@@ -137,7 +137,12 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
+}
+
+.team-list {
+    background-color: #fff;
 }
 
 .team-subtitle {
@@ -146,7 +151,6 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #fff;
 }
 
 .team-text {
@@ -155,7 +159,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    background-color: #fff;
 }
 
 /* #endregion section 2 */
@@ -167,6 +170,7 @@ button {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -176,12 +180,8 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
 }
 
-.portfolio-list {
-    background-color: #ffff;
-}
 
 .portfolio-text {
     font-weight: 400;
