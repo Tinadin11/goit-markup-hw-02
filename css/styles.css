@@ -177,6 +177,10 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+}
+
+.portfolio-item {
     background-color: #ffff;
 }
 
