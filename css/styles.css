@@ -70,7 +70,8 @@ button {
     color: #434455;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
@@ -82,8 +83,10 @@ button {
 
 .hero-title {
     font-weight: 700;
+    font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
@@ -133,6 +136,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -160,7 +164,9 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -171,6 +177,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #ffff;
 }
 
 .portfolio-text {
